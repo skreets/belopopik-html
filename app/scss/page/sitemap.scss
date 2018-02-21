@@ -1,0 +1,268 @@
+.page-sitemap {
+	background: $bg-page;
+
+	header {
+
+		nav {
+			width: 100%;
+			height: 60px !important;
+			position: fixed;
+			top: 0;
+			z-index: 10;
+
+			ul {
+
+				li {
+					flex-basis: auto;
+					  @include transition;
+
+					a {
+
+						&:before {
+							height: 25px !important;
+							opacity: 0;
+						}
+					}
+
+					&.active {
+
+						a {
+							margin-top: 10px;
+							padding-left: 45px;
+							position: relative;
+
+							&:before {
+								height: 60px !important;
+								display: block;
+								margin-top: 0;
+								margin-bottom: 0;
+								top: -10px; left: -30px;
+								position: absolute;
+								background-size: 40px;
+								background-position: center;
+								opacity: 1;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.main {
+		position: relative;
+
+		.title-block {
+			border-bottom: 3px solid $gray-3;
+			background: $gray-2;
+
+			.breadcrumb {
+
+				a {
+
+					&:hover {
+						color: $gray-3;
+					}
+				}
+			}
+		}
+
+		&-wrapp {
+			position: relative;
+			padding: 30px 0;
+
+			&-item {
+				margin-left: 340px;
+				margin-right: 150px;
+
+				ul {
+
+					li {
+						font-size: 22px;
+						margin-bottom: 20px;
+						position: relative;
+						background: #fff;
+						box-shadow: 0 1px 1px 1px rgba(0, 0, 0, .05);
+
+						a {
+							color: #333;
+							text-decoration: none;
+							display: block;
+							padding: 14px 20px 15px;
+							border-left: 5px solid $gray-3;
+						}
+
+						ul {
+							padding-bottom: 5px;
+
+							li {
+								font-size: 18px;
+								margin-bottom: 10px;
+								background: transparent;
+								box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+
+								a {
+									padding: 5px 0 5px 25px;
+									border: 0;
+								}
+
+								&:before, &:after {
+									display: none;
+								}
+							}
+						}
+
+						&:nth-of-type(2) {
+
+							a {
+								border-color: $green-2;
+
+								&:hover {
+									color: $green-2 !important;
+								}
+							}
+
+							&:before, &:after {
+								background: $green-2;
+							}
+						}
+
+						&:nth-of-type(3) {
+
+							a {
+								border-color: $bluel-2;
+
+								&:hover {
+									color: $bluel-2 !important;
+								}
+							}
+
+							&:before, &:after {
+								background: $bluel-2;
+							}
+						}
+
+						&:nth-of-type(4) {
+
+							a {
+								border-color: $orange-2;
+
+								&:hover {
+									color: $orange-2 !important;
+								}
+							}
+
+							&:before, &:after {
+								background: $orange-2;
+							}
+						}
+
+						&:nth-of-type(5) {
+
+							a {
+								border-color: $red-2;
+
+								&:hover {
+									color: $red-2 !important;
+								}
+							}
+
+							&:before, &:after {
+								background: $red-2;
+							}
+						}
+
+						&:nth-of-type(6) {
+
+							a {
+								border-color: $pink-2;
+
+								&:hover {
+									color: $pink-2 !important;
+								}
+							}
+
+							&:before, &:after {
+								background: $pink-2;
+							}
+						}
+
+						&:nth-of-type(7) {
+
+							a {
+								border-color: $purple-2;
+
+								&:hover {
+									color: $purple-2 !important;
+								}
+							}
+
+							&:before, &:after {
+								background: $purple-2;
+							}
+						}
+
+						&:before {
+							content: '';
+							width: 2px;
+							height: 12px;
+							position: absolute;
+							top: 20px; left: -80px;
+							background: $gray-3;
+						}
+
+						&:after {
+							content: '';
+							width: 78px;
+							height: 2px;
+							display: block;
+							position: absolute;
+							top: 25px; left: -78px;
+							background: $gray-3;
+						}
+					}
+				}
+			}
+
+			&:before {
+				content: '';
+				width: 0px;
+				position: absolute;
+				top:0; bottom:0; left: 260px;
+				border-left: 2px solid $gray-3;
+			}
+		}
+	}
+
+	.title-block {
+		border-bottom: 3px solid $gray-3;
+		background: $gray-2;
+
+		.breadcrumb {
+
+			a {
+
+				&:hover {
+					color: $gray-3;
+				}
+			}
+		}
+	}
+
+	footer {
+		border-top: 5px solid $gray-2;
+	}
+
+	::selection {
+		color: $gray;
+		background: #fff;
+	}
+	::-moz-selection {
+		color: $gray;
+		background: #fff;
+	}
+	::-webkit-selection {
+		color: $gray;
+		background: #fff;
+	}
+}

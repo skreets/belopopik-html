@@ -1,0 +1,61 @@
+.page-error {
+	background: $bg-page;
+
+	.main {
+
+		&-wrapp {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+
+			img {
+				margin-top: 50px;
+				margin-bottom: -20px;
+				width: 400px;
+				display: block;
+			}
+
+			p {
+				font: 60px $lobster;
+			}
+
+			a {
+				font: 22px $regular;
+				text-decoration: none;
+				display: inline-block;
+				margin-top: 10px;
+				position: relative;
+
+				&:before {
+					content: $icon-arrow_r-left;
+					font: 15px $icon;
+					position: absolute;
+					top: 10px; left: -15px;
+					@include transition;
+				}
+
+				&:hover {
+
+					&:before {
+						left: -20px;
+					}
+				}
+			}
+		}
+	}
+
+	::selection {
+		color: #fff;
+		background: #333;
+	}
+	::-moz-selection {
+		color: #fff;
+		background: #333;
+	}
+	::-webkit-selection {
+		color: #fff;
+		background: #333;
+	}
+}

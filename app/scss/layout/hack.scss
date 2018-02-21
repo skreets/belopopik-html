@@ -1,0 +1,10 @@
+// Microsoft Internet Explorer (10+)
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .element {}
+}
+
+// Mozzila Firefox (1.5+)
+@-moz-document url-prefix() {
+
+  .element{}
+}

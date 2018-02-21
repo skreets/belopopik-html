@@ -1,0 +1,39 @@
+$mobile: 960px;
+$laptop: 1200px;
+$desktop: 1600px;
+
+
+@mixin respond-to($media) {
+
+  @if $media == mobile {
+    @media only screen and (max-width: $mobile - 1) { @content; }
+  }
+
+  @else if $media == laptop {
+    @media only screen and (min-width: $mobile) and (max-width: $laptop - 1) { @content; }
+  }
+
+  @else if $media == desktop {
+    @media only screen and (min-width: $laptop) { @content; }
+  }
+
+  @else if $media == mac {
+    @media only screen and (min-width: $mobile) { @content; }
+  }
+
+}
+
+@mixin respond {
+  margin: 0 auto;
+	position: relative;
+
+  @include respond-to(mobile) {width: 92%;}
+	@include respond-to(laptop) {width: $mobile;}
+	@include respond-to(desktop) {width: $laptop;}
+}
+
+// .block {
+// 	@include respond-to(mobile) {}
+// 	@include respond-to(laptop) {}
+// 	@include respond-to(desktop) {}
+// }​

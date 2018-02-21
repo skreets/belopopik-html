@@ -1,0 +1,297 @@
+.page-about {
+
+	.main {
+
+		&-wrapp {
+
+			&-item {
+
+				.info {
+
+					.date {
+
+						&:after {
+							background: $bluel-3;
+						}
+					}
+				}
+
+				.content {
+
+					a {
+
+						&:hover {
+
+							.title {
+								color: $bluel-2;
+							}
+						}
+					}
+
+					.tag {
+
+						a {
+							color: $bluel-2;
+
+							&:hover {
+								color: $bluel-3;
+							}
+						}
+					}
+				}
+			}
+
+			&:before {
+				background: $bluel-3;
+			}
+		}
+	}
+
+	.page {
+
+		&-wrapp {
+
+			&-item {
+
+				.info {
+
+					.tag {
+
+						a {
+							color: $bluel-2;
+
+							&:hover {
+								color: $bluel-3;
+							}
+						}
+					}
+				}
+
+				.content {
+					width: 725px;
+
+					h1 {
+						color: $bluel-2;
+					}
+
+					h2 {
+						color: $bluel-2;
+					}
+
+					h3 {
+						color: $bluel-2;
+					}
+
+					a {
+						color: $bluel-2;
+
+						&:hover {
+							color: $bluel-3;
+						}
+					}
+
+					blockquote {
+						border-left-color: $bluel-2;
+					}
+
+					ul {
+
+						li {
+
+							&:before {
+								background: $bluel-2;
+							}
+						}
+					}
+
+					ol {
+
+						li {
+
+							&:before {
+								color: $bluel-2;
+							}
+						}
+					}
+
+					table {
+
+						caption {
+							color: $bluel-2;
+						}
+
+						thead {
+
+			        tr {
+
+			          th {
+			            border-bottom: 2px solid $bluel;
+			          }
+			        }
+			      }
+
+						tbody {
+
+							tr {
+								@include transition;
+
+								&:nth-of-type(even) {
+									background: $bluel-4;
+								}
+
+								&:hover {
+									background: $bluel-5;
+								}
+							}
+						}
+					}
+
+					.foot {
+
+						.copy {
+
+							a {
+
+								&:before {
+									color: $bluel-2;
+								}
+
+								&:hover {
+									color: $bluel-2;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.sidebar {
+
+			.posts {
+
+				.slick {
+
+					&-arrow {
+
+						&:hover {
+							color: $bluel;
+						}
+					}
+
+					&-dots {
+
+						li {
+
+							button {
+
+								&:hover {
+
+									&:before {
+										color: $bluel;
+									}
+								}
+							}
+
+							&.slick-active {
+
+								button {
+
+									&:before {
+										color: $bluel;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.title-block {
+		border-bottom: 3px solid $bluel-3;
+		background: $bluel-2;
+
+		.breadcrumb {
+
+			a {
+
+				&:hover {
+					color: $bluel-3;
+				}
+			}
+		}
+	}
+
+	.nav {
+
+		li {
+
+			a {
+
+				&:hover {
+					color: $bluel-2;
+				}
+			}
+
+			&.active {
+
+				a {
+					color: $bluel-2;
+					border-right: 3px solid $bluel-2;
+				}
+			}
+		}
+	}
+
+	.posts {
+
+		&-wrapp {
+
+			&-item {
+
+				&:hover {
+					color: $bluel-2;
+				}
+			}
+		}
+	}
+
+	.paginator {
+
+		a {
+
+			&:hover {
+				color: $bluel-3;
+			}
+		}
+	}
+
+	footer {
+		border-top: 5px solid $bluel-2;
+
+		.skreets {
+
+			a[href^="http://"] {
+
+				&:hover {
+					color: $bluel-2
+				}
+			}
+		}
+	}
+
+	::selection {
+		color: $bluel;
+		background: #fff;
+	}
+	::-moz-selection {
+		color: $bluel;
+		background: #fff;
+	}
+	::-webkit-selection {
+		color: $bluel;
+		background: #fff;
+	}
+}

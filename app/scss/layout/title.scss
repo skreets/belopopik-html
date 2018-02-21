@@ -1,0 +1,42 @@
+.title-block {
+	padding: 5px 0;
+
+	.title {
+		color: #fff;
+		font: 55px $lobster;
+
+		&:before, &:after {
+			content: '';
+			width: 20px;
+			height: 20px;
+			display: inline-block;
+			vertical-align: middle;
+			background: url('../svg/paw_fff.svg') no-repeat;
+			background-size: 20px;
+		}
+
+		&:before {
+			margin-right: 15px;
+		}
+
+		&:after {
+			margin-left: 15px;
+		}
+	}
+
+	.breadcrumb {
+		color: #fff;
+		font: 12px $regular;
+		margin-top: 0;
+
+		a {
+			color: #fff;
+			text-decoration: none;
+
+			&:after {
+				color: #fff !important;
+				content: ' »';
+			}
+		}
+	}
+}

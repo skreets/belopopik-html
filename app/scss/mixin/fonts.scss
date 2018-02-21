@@ -1,0 +1,87 @@
+@mixin font-face($fontFamily, $path, $fileName, $svgLabel, $fontWeight: normal, $fontStyle: normal) {
+	@font-face {
+		font-family: $fontFamily;
+
+		src: url('#{$path + $fileName}.eot');
+		src: url('#{$path + $fileName}.eot?#iefix') format('embedded-opentype'),
+		url('#{$path + $fileName}.woff') format('woff'),
+		url('#{$path + $fileName}.ttf') format('truetype'),
+		url('#{$path + $fileName}.svg##{$svgLabel}') format('svg');
+
+		font-weight: $fontWeight;
+		font-style: $fontStyle;
+	}
+}
+
+// OpenSans
+$regular:      'OpenSans';
+$bold:         'OpenSans Bold';
+$italic:       'OpenSans Italic';
+$light:        'OpenSans Light';
+$bold-italic:  'OpenSans bold-italic';
+@include font-face($regular,      '/static/fonts/opensans/', 'OpenSans', 'OpenSans');
+@include font-face($bold,         '/static/fonts/opensans/', 'OpenSans-Bold', 'OpenSans-Bold');
+@include font-face($italic,       '/static/fonts/opensans/', 'OpenSans-Italic', 'OpenSans-Italic');
+@include font-face($light,        '/static/fonts/opensans/', 'OpenSans-Light', 'OpenSans-Light');
+@include font-face($bold-italic,  '/static/fonts/opensans/', 'OpenSans-BoldItalic', 'OpenSans-BoldItalic');
+
+
+// Lobster
+$lobster:			 'Lobster';
+@include font-face($lobster,      '/static/fonts/lobster/', 'Lobster', 'Lobster');
+
+
+// Sign Painter
+$sign-painter: 'SignPainter';
+@include font-face($sign-painter, '/static/fonts/signpainter/', 'SignPainter-HouseScript', 'SignPainter-HouseScript');
+
+
+// Icon
+$icon: 'icon';
+
+$icon-paw:           '\71'; // q
+$icon-paw-light:     '\f1b0';
+$icon-views:         '\f06e';
+$icon-comments:      '\f0e5';
+$icon-pen:           '\f040';
+$icon-heart:         '\f004';
+$icon-heart-light:   '\f08b';
+$icon-star:          '\f007';
+$icon-star-light:    '\f008';
+$icon-vk:            '\e900';
+$icon-in:            '\e901';
+$icon-tg:            '\f1d9';
+$icon-yt:            '\e902';
+$icon-wa:            '\f233';
+$icon-rss:          '\e903';
+$icon-sale:          '\f0a4';
+$icon-bag:           '\f292';
+$icon-card:          '\f09e';
+$icon-location:      '\f042';
+$icon-gps:           '\f125';
+$icon-garbage:       '\f015';
+$icon-chat:          '\f27c';
+$icon-yes:           '\f00e';
+$icon-no:            '\f00f';
+$icon-check-no:      '\f097';
+$icon-check-yes:     '\f047';
+$icon-loading:       '\f111';
+$icon-reload:        '\f022';
+$icon-setting:       '\f016';
+$icon-microphone:    '\f131';
+$icon-flash:         '\f0e8';
+$icon-idea:          '\f0ec';
+$icon-arrow_r-top:   '\f106';
+$icon-arrow_r-down:  '\f107';
+$icon-arrow_r-left:  '\f104';
+$icon-arrow_r-right: '\f105';
+$icon-arrow_b-top:   '\f077';
+$icon-arrow_b-down:  '\f078';
+$icon-arrow_b-left:  '\f053';
+$icon-arrow_b-right: '\f054';
+$icon-arrow_d-top:   '\f102';
+$icon-arrow_d-down:  '\f103';
+$icon-arrow_d-left:  '\f100';
+$icon-arrow_d-right: '\f101';
+
+@include font-face($icon, '/static/fonts/icon/', 'icon', 'icon');

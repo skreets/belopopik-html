@@ -1,0 +1,297 @@
+.page-education {
+
+	.main {
+
+		&-wrapp {
+
+			&-item {
+
+				.info {
+
+					.date {
+
+						&:after {
+							background: $pink-3;
+						}
+					}
+				}
+
+				.content {
+
+					a {
+
+						&:hover {
+
+							.title {
+								color: $pink-2;
+							}
+						}
+					}
+
+					.tag {
+
+						a {
+							color: $pink-2;
+
+							&:hover {
+								color: $pink-3;
+							}
+						}
+					}
+				}
+			}
+
+			&:before {
+				background: $pink-3;
+			}
+		}
+	}
+
+	.page {
+
+		&-wrapp {
+
+			&-item {
+
+				.info {
+
+					.tag {
+
+						a {
+							color: $pink-2;
+
+							&:hover {
+								color: $pink-3;
+							}
+						}
+					}
+				}
+
+				.content {
+					width: 725px;
+
+					h1 {
+						color: $pink-2;
+					}
+
+					h2 {
+						color: $pink-2;
+					}
+
+					h3 {
+						color: $pink-2;
+					}
+
+					a {
+						color: $pink-2;
+
+						&:hover {
+							color: $pink-3;
+						}
+					}
+
+					blockquote {
+						border-left-color: $pink-2;
+					}
+
+					ul {
+
+						li {
+
+							&:before {
+								background: $pink-2;
+							}
+						}
+					}
+
+					ol {
+
+						li {
+
+							&:before {
+								color: $pink-2;
+							}
+						}
+					}
+
+					table {
+
+						caption {
+							color: $pink-2;
+						}
+
+						thead {
+
+			        tr {
+
+			          th {
+			            border-bottom: 2px solid $pink;
+			          }
+			        }
+			      }
+
+						tbody {
+
+							tr {
+								@include transition;
+
+								&:nth-of-type(even) {
+									background: $pink-4;
+								}
+
+								&:hover {
+									background: $pink-5;
+								}
+							}
+						}
+					}
+
+					.foot {
+
+						.copy {
+
+							a {
+
+								&:before {
+									color: $pink-2;
+								}
+
+								&:hover {
+									color: $pink-2;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.sidebar {
+
+			.posts {
+
+				.slick {
+
+					&-arrow {
+
+						&:hover {
+							color: $pink;
+						}
+					}
+
+					&-dots {
+
+						li {
+
+							button {
+
+								&:hover {
+
+									&:before {
+										color: $pink;
+									}
+								}
+							}
+
+							&.slick-active {
+
+								button {
+
+									&:before {
+										color: $pink;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.title-block {
+		border-bottom: 3px solid $pink-3;
+		background: $pink-2;
+
+		.breadcrumb {
+
+			a {
+
+				&:hover {
+					color: $pink-3;
+				}
+			}
+		}
+	}
+
+	.nav {
+
+		li {
+
+			a {
+
+				&:hover {
+					color: $pink-2;
+				}
+			}
+
+			&.active {
+
+				a {
+					color: $pink-2;
+					border-right: 3px solid $pink-2;
+				}
+			}
+		}
+	}
+
+	.posts {
+
+		&-wrapp {
+
+			&-item {
+
+				&:hover {
+					color: $pink-2;
+				}
+			}
+		}
+	}
+
+	.paginator {
+
+		a {
+
+			&:hover {
+				color: $pink-3;
+			}
+		}
+	}
+
+	footer {
+		border-top: 5px solid $pink-2;
+
+		.skreets {
+
+			a[href^="http://"] {
+
+				&:hover {
+					color: $pink-2
+				}
+			}
+		}
+	}
+
+	::selection {
+		color: $pink;
+		background: #fff;
+	}
+	::-moz-selection {
+		color: $pink;
+		background: #fff;
+	}
+	::-webkit-selection {
+		color: $pink;
+		background: #fff;
+	}
+}

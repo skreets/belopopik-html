@@ -1,0 +1,82 @@
+// Basic Styles
+* {
+  outline: none;
+}
+
+body {
+  background: $bg-page;
+  font: 16px/22px $regular;
+	color: $black;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+::selection {
+	color: $green-1;
+	background: #fff;
+}
+::-moz-selection {
+	color: $green-1;
+	background: #fff;
+}
+::-webkit-selection {
+	color: $green-1;
+	background: #fff;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit;}
+h1 {
+	color: $green-1;
+	font: 26px $bold;
+}
+h2 {
+	font: 22px $green-1;
+}
+h3 {
+	font: 18px $green-1;
+}
+
+p {
+	margin: 0;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+em, i {font-family: $italic;}
+strong, b {font-family: $bold;}
+strong em, em strong, b i, i b {font-family: $bold-italic}
+small {font-size: 80%;}
+
+// Links
+a {
+  color: $green-1;
+	outline: 0;
+  @include transition;
+
+  &:hover, &:focus {
+		color: $green-3;
+		text-decoration: none;
+	}
+
+  &[href^="http://savefrom.net/"] {display: none !important;}
+}
+
+
+// Container
+.container {
+  @include respond;
+
+  &.flex {
+		display: flex;
+	  flex-wrap: wrap;
+	  justify-content: space-between;
+	}
+
+	.sidebar {
+		flex-basis: 220px;
+	}
+}

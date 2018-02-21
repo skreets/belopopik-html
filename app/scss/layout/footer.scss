@@ -1,0 +1,195 @@
+footer {
+	background: $black;
+	border-top: 5px solid $green-1;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+
+	.social {
+		width: 240px;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 50px;
+
+		a {
+			width: 60px;
+			height: 60px;
+			color: #fff;
+			margin: 0 10px;
+			text-decoration: none;
+			display: block;
+			border-radius: 100%;
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+
+			&:before {
+				font: 30px $icon;
+				@include transition;
+			}
+
+			&.vk {
+				background: $vk;
+
+				&:before {
+					content: $icon-vk;
+          margin-left: -1px;
+				}
+
+				&:hover {
+					background: #fff;
+
+					&:before {
+						color: $vk;
+					}
+				}
+			}
+
+			&.in {
+				background: $in;
+
+				&:before {
+					content: $icon-in;
+				}
+
+				&:hover {
+					background: #fff;
+
+					&:before {
+						color: $in;
+					}
+				}
+			}
+
+			&.yt {
+				background: $yt;
+
+				&:before {
+					content: $icon-yt;
+				}
+
+				&:hover {
+					background: #fff;
+
+					&:before {
+						color: $yt;
+					}
+				}
+			}
+
+			&.rss {
+				background: $rss;
+
+				&:before {
+					content: $icon-rss;
+          margin: 6px 0 0 3px;
+				}
+
+				&:hover {
+					background: #fff;
+
+					&:before {
+						color: $rss;
+					}
+				}
+			}
+		}
+	}
+
+	.logo {
+		width: 200px;
+		margin-bottom: 15px;
+		position: relative;
+
+		img {
+			width: 60px;
+			height: 70px;
+			display: block;
+			margin: -15px 0 0 55px;
+			@include buzz;
+		}
+
+		span {
+			color: #fff;
+			font: 12px $regular;
+			text-align: center;
+			display: block;
+		}
+
+		a {
+			text-decoration: none;
+			display: block;
+
+			&:before, &:after {
+				content: '';
+				color: #fff;
+				position: absolute;
+				font: 45px $sign-painter;
+				top: 0;
+			}
+
+			&:before {
+				content: 'Бел';
+				left: 8px;
+			}
+
+			&:after {
+				content: 'попик';
+				right: 5px;
+			}
+
+			&:hover {
+
+				img {
+					@include buzz-hover;
+				}
+			}
+		}
+	}
+
+	.copy {
+		color: #565656;
+		font: 12px/20px $regular;
+		text-align: center;
+		margin: 15px 0;
+	}
+
+	.skreets {
+		color: #fff;
+		font: 12px $regular;
+		text-align: center;
+
+		a {
+			color: #fff;
+			text-decoration: none;
+
+			&:hover {
+				color: $green-1;
+			}
+		}
+
+		.ico {
+			display: inline-block;
+			padding: 0 1px 0 3px;
+
+			&:before {
+				content: $icon-heart;
+				color: $red;
+				font: 12px $icon;
+				@include transition;;
+			}
+
+			&:hover {
+
+				&:before {
+					color: #fff;
+					@include transition;;
+				}
+			}
+		}
+	}
+}

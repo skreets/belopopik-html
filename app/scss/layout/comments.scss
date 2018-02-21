@@ -1,0 +1,54 @@
+.comments {
+	padding-bottom: 40px;
+
+	&-title {
+		font: 40px $lobster;
+		text-align: center;
+		position: relative;
+
+		span {
+			position: relative;
+
+			&:before, &:after {
+				content: '';
+				width: 20px;
+				height: 20px;
+				display: block;
+				position: absolute;
+				top: 20px;
+				background: url('../svg/paw_333.svg') center no-repeat;
+				background-size: 20px;
+			}
+
+			&:before {
+				left: -35px;
+			}
+
+			&:after {
+				right: -35px;
+			}
+		}
+
+		&:before, &:after {
+			content: '';
+			width: 300px;
+			height: 1px;
+			display: block;
+			position: absolute;
+			top: 30px;
+			background: #333;
+		}
+
+		&:before {
+			left: 0;
+		}
+
+		&:after {
+			right: 0;
+		}
+	}
+
+	.post-list {
+		display: none !important;
+	}
+}

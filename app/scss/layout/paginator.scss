@@ -1,0 +1,48 @@
+.paginator {
+	font: 35px $regular;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 70px 0 50px;
+
+	a {
+		color: #999;
+		padding: 0 25px;
+		text-decoration: none;
+
+		&.prev, &.next, &.ditto_previous_link, &.ditto_next_link {
+			width: 25px;
+			height: 25px;
+			padding: 0;
+			overflow: hidden;
+			line-height: 1000px;
+			display: inline-block;
+			background: url('../svg/paw_999.svg') center no-repeat;
+			background-size: 20px;
+			opacity: .7;
+
+			&:hover {
+				opacity: 1;
+				background-size: 23px;
+			}
+		}
+
+		&.prev, &.ditto_previous_link {
+			@include transform(scale(1) rotate(-90deg));
+		}
+
+		&.next, &.ditto_next_link {
+			@include transform(scale(1) rotate(90deg));
+		}
+
+		&:hover {
+			color: $green-1;
+		}
+	}
+
+	span {
+		color: #333;
+		padding: 0 25px;
+	}
+}
