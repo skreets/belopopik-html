@@ -176,6 +176,7 @@ header {
 					a {
 
 						&:before {
+							left: -60px !important;
 							background: url('../svg/education.svg') top center no-repeat;
 							background-size: contain;
 						}

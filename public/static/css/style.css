@@ -374,6 +374,7 @@ header {
           color: #e23a3a;
           background: #fff; }
         header nav ul li.education a:before, header nav ul li:nth-of-type(5) a:before {
+          left: -60px !important;
           background: url("../svg/education.svg") top center no-repeat;
           background-size: contain; }
         header nav ul li.education:hover a, header nav ul li.education.active a, header nav ul li:nth-of-type(5):hover a, header nav ul li:nth-of-type(5).active a {
