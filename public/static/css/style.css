@@ -948,6 +948,27 @@ footer {
               max-width: 100%;
               display: block;
               margin: 0 auto; }
+            .page-blog .page-wrapp-item .content p span[style^="text-decoration: line-through"], .page-about .page-wrapp-item .content p span[style^="text-decoration: line-through"], .page-care .page-wrapp-item .content p span[style^="text-decoration: line-through"], .page-education .page-wrapp-item .content p span[style^="text-decoration: line-through"], .page-food .page-wrapp-item .content p span[style^="text-decoration: line-through"], .page-tags .page-wrapp-item .content p span[style^="text-decoration: line-through"] {
+              text-decoration: none !important;
+              font: 24px/34px "OpenSans Light";
+              text-align: center;
+              display: block;
+              position: relative;
+              padding: 0; }
+              .page-blog .page-wrapp-item .content p span[style^="text-decoration: line-through"]:before, .page-about .page-wrapp-item .content p span[style^="text-decoration: line-through"]:before, .page-care .page-wrapp-item .content p span[style^="text-decoration: line-through"]:before, .page-education .page-wrapp-item .content p span[style^="text-decoration: line-through"]:before, .page-food .page-wrapp-item .content p span[style^="text-decoration: line-through"]:before, .page-tags .page-wrapp-item .content p span[style^="text-decoration: line-through"]:before {
+                content: '';
+                width: 300px;
+                height: 2px;
+                display: block;
+                margin: 10px auto 22px;
+                background: #ccc; }
+              .page-blog .page-wrapp-item .content p span[style^="text-decoration: line-through"]:after, .page-about .page-wrapp-item .content p span[style^="text-decoration: line-through"]:after, .page-care .page-wrapp-item .content p span[style^="text-decoration: line-through"]:after, .page-education .page-wrapp-item .content p span[style^="text-decoration: line-through"]:after, .page-food .page-wrapp-item .content p span[style^="text-decoration: line-through"]:after, .page-tags .page-wrapp-item .content p span[style^="text-decoration: line-through"]:after {
+                content: '';
+                width: 300px;
+                height: 2px;
+                display: block;
+                margin: 25px auto 5px;
+                background: #ccc; }
           .page-blog .page-wrapp-item .content ul, .page-about .page-wrapp-item .content ul, .page-care .page-wrapp-item .content ul, .page-education .page-wrapp-item .content ul, .page-food .page-wrapp-item .content ul, .page-tags .page-wrapp-item .content ul {
             padding: 0 50px 25px; }
             .page-blog .page-wrapp-item .content ul li, .page-about .page-wrapp-item .content ul li, .page-care .page-wrapp-item .content ul li, .page-education .page-wrapp-item .content ul li, .page-food .page-wrapp-item .content ul li, .page-tags .page-wrapp-item .content ul li {
@@ -2161,6 +2182,10 @@ img.mfp-img {
     color: #33c2e6; }
   .page-about .page-wrapp-item .content h3 {
     color: #33c2e6; }
+  .page-about .page-wrapp-item .content p span[style^="text-decoration: line-through"]:before {
+    background: #33c2e6; }
+  .page-about .page-wrapp-item .content p span[style^="text-decoration: line-through"]:after {
+    background: #33c2e6; }
   .page-about .page-wrapp-item .content a {
     color: #33c2e6; }
     .page-about .page-wrapp-item .content a:hover {
@@ -2305,6 +2330,10 @@ img.mfp-img {
     color: #5fd354; }
   .page-blog .page-wrapp-item .content h3 {
     color: #5fd354; }
+  .page-blog .page-wrapp-item .content p span[style^="text-decoration: line-through"]:before {
+    background: #5fd354; }
+  .page-blog .page-wrapp-item .content p span[style^="text-decoration: line-through"]:after {
+    background: #5fd354; }
   .page-blog .page-wrapp-item .content a {
     color: #5fd354; }
     .page-blog .page-wrapp-item .content a:hover {
@@ -2407,6 +2436,10 @@ img.mfp-img {
     color: #ed9b1a; }
   .page-care .page-wrapp-item .content h3 {
     color: #ed9b1a; }
+  .page-care .page-wrapp-item .content p span[style^="text-decoration: line-through"]:before {
+    background: #ed9b1a; }
+  .page-care .page-wrapp-item .content p span[style^="text-decoration: line-through"]:after {
+    background: #ed9b1a; }
   .page-care .page-wrapp-item .content a {
     color: #ed9b1a; }
     .page-care .page-wrapp-item .content a:hover {
@@ -2508,6 +2541,10 @@ img.mfp-img {
     color: #dc7c7c; }
   .page-education .page-wrapp-item .content h3 {
     color: #dc7c7c; }
+  .page-education .page-wrapp-item .content p span[style^="text-decoration: line-through"]:before {
+    background: #dc7c7c; }
+  .page-education .page-wrapp-item .content p span[style^="text-decoration: line-through"]:after {
+    background: #dc7c7c; }
   .page-education .page-wrapp-item .content a {
     color: #dc7c7c; }
     .page-education .page-wrapp-item .content a:hover {
@@ -2653,6 +2690,10 @@ img.mfp-img {
     color: #eb3c3c; }
   .page-food .page-wrapp-item .content h3 {
     color: #eb3c3c; }
+  .page-food .page-wrapp-item .content p span[style^="text-decoration: line-through"]:before {
+    background: #eb3c3c; }
+  .page-food .page-wrapp-item .content p span[style^="text-decoration: line-through"]:after {
+    background: #eb3c3c; }
   .page-food .page-wrapp-item .content a {
     color: #eb3c3c; }
     .page-food .page-wrapp-item .content a:hover {

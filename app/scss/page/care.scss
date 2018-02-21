@@ -82,6 +82,23 @@
 						color: $orange-2;
 					}
 
+					p {
+
+						span {
+
+							&[style^="text-decoration: line-through"] {
+
+								&:before {
+									background: $orange-2;
+								}
+
+								&:after {
+									background: $orange-2;
+								}
+							}
+						}
+					}
+
 					a {
 						color: $orange-2;
 

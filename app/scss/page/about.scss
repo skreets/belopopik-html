@@ -82,6 +82,23 @@
 						color: $bluel-2;
 					}
 
+					p {
+
+						span {
+
+							&[style^="text-decoration: line-through"] {
+
+								&:before {
+									background: $bluel-2;
+								}
+
+								&:after {
+									background: $bluel-2;
+								}
+							}
+						}
+					}
+
 					a {
 						color: $bluel-2;
 

@@ -300,6 +300,36 @@
               display: block;
               margin: 0 auto;
             }
+
+            span {
+
+              &[style^="text-decoration: line-through"] {
+                text-decoration: none !important;
+                font: 24px/34px $light;
+                text-align: center;
+                display: block;
+                position: relative;
+                padding: 0;
+
+                &:before {
+                  content: '';
+                  width: 300px;
+                  height: 2px;
+                  display: block;
+                  margin: 10px auto 22px;
+                  background: #ccc;
+                }
+
+                &:after {
+                  content: '';
+                  width: 300px;
+                  height: 2px;
+                  display: block;
+                  margin: 25px auto 5px;
+                  background: #ccc;
+                }
+              }
+            }
           }
 
           ul {

@@ -136,6 +136,23 @@
 						color: $green-2;
 					}
 
+					p {
+
+						span {
+
+							&[style^="text-decoration: line-through"] {
+
+								&:before {
+									background: $green-2;
+								}
+
+								&:after {
+									background: $green-2;
+								}
+							}
+						}
+					}
+
 					a {
 						color: $green-2;
 

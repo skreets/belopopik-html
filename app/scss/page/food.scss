@@ -82,6 +82,23 @@
 						color: $red-2;
 					}
 
+					p {
+
+						span {
+
+							&[style^="text-decoration: line-through"] {
+
+								&:before {
+									background: $red-2;
+								}
+
+								&:after {
+									background: $red-2;
+								}
+							}
+						}
+					}
+
 					a {
 						color: $red-2;
 
