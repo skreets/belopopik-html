@@ -520,32 +520,12 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/app\/js\/form.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "\/public\/static\/js\/form.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/app\/js\/gallery.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "\/public\/static\/js\/gallery.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"\/app\/js\/lib\/animate.block.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 0,
-		"oAP": "\/public\/static\/js\/lib\/animate.block.js",
+		"oA": 1,
+		"oAP": "\/public\/static\/js\/animate.block.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -554,8 +534,8 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 0,
-		"oAP": "\/public\/static\/js\/lib\/instafeed.min.js",
+		"oA": 1,
+		"oAP": "\/public\/static\/js\/instafeed.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -564,8 +544,8 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 0,
-		"oAP": "\/public\/static\/js\/lib\/jquery.instastream.js",
+		"oA": 1,
+		"oAP": "\/public\/static\/js\/jquery.instastream.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -574,7 +554,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/static\/js\/jquery.magnific-popup.min.js",
 		"oF": 0,
 		"sC": 0,
@@ -584,8 +564,8 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 0,
-		"oAP": "\/public\/static\/js\/lib\/jquery.min.js",
+		"oA": 1,
+		"oAP": "\/public\/static\/js\/jquery.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -594,8 +574,8 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 0,
-		"oAP": "\/public\/static\/js\/lib\/jquery.tooltipster.min.js",
+		"oA": 1,
+		"oAP": "\/public\/static\/js\/jquery.tooltipster.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -604,8 +584,8 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 0,
-		"oAP": "\/public\/static\/js\/lib\/jquery.validate.min.js",
+		"oA": 1,
+		"oAP": "\/public\/static\/js\/jquery.validate.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
@@ -614,27 +594,37 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 0,
-		"oAP": "\/public\/static\/js\/lib\/slick.min.js",
+		"oA": 1,
+		"oAP": "\/public\/static\/js\/slick.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/app\/js\/main.js": {
+	"\/app\/js\/page\/gallery.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 0,
+		"oA": 1,
+		"oAP": "\/public\/static\/js\/gallery.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app\/js\/page\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
 		"oAP": "\/public\/static\/js\/main.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
 		},
-	"\/app\/js\/post.js": {
+	"\/app\/js\/page\/post.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/public\/static\/js\/post.js",
 		"oF": 0,
 		"sC": 0,
@@ -646,7 +636,7 @@
 		"mi": 0,
 		"oA": 0,
 		"oAP": "\/public\/static\/js\/script.js",
-		"oF": 0,
+		"oF": 3,
 		"sC": 0,
 		"tS": 0
 		},
@@ -1751,13 +1741,75 @@
 "hooks": [
 	],
 "manualImportLinks": {
+	"\/app\/js\/script.js": [
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/app\/js\/lib\/jquery.min.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/app\/js\/lib\/jquery.tooltipster.min.js",
+			"position": 1,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/app\/js\/lib\/jquery.magnific-popup.min.js",
+			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/app\/js\/lib\/jquery.instastream.js",
+			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/app\/js\/lib\/instafeed.min.js",
+			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/app\/js\/lib\/slick.min.js",
+			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/app\/js\/lib\/animate.block.js",
+			"position": 6,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/app\/js\/page\/main.js",
+			"position": 7,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/app\/js\/page\/post.js",
+			"position": 8,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 1,
+			"linkedFileAbbreviatedPath": "\/app\/js\/page\/gallery.js",
+			"position": 9,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"creationDate": 540826184,
 	"displayValue": "belopopik-html",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-doge",
-	"lastBuiltDate": 540835820
+	"lastBuiltDate": 540926357
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3563,7 +3615,7 @@
 		"quality": 100
 		},
 	"languageDefaultsJS": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.js",
 		"autoOutputPathRelativePath": "\/static\/js",
 		"autoOutputPathReplace1": "",

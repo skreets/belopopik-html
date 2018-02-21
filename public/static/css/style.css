@@ -1015,27 +1015,27 @@ footer {
                 background: #e6faff; }
               .page-blog .page-wrapp-item .content table tbody tr:hover, .page-about .page-wrapp-item .content table tbody tr:hover, .page-care .page-wrapp-item .content table tbody tr:hover, .page-education .page-wrapp-item .content table tbody tr:hover, .page-food .page-wrapp-item .content table tbody tr:hover, .page-tags .page-wrapp-item .content table tbody tr:hover {
                 background: #d6f7ff; }
-          .page-blog .page-wrapp-item .content .gallerys, .page-about .page-wrapp-item .content .gallerys, .page-care .page-wrapp-item .content .gallerys, .page-education .page-wrapp-item .content .gallerys, .page-food .page-wrapp-item .content .gallerys, .page-tags .page-wrapp-item .content .gallerys {
+          .page-blog .page-wrapp-item .content .galery, .page-about .page-wrapp-item .content .galery, .page-care .page-wrapp-item .content .galery, .page-education .page-wrapp-item .content .galery, .page-food .page-wrapp-item .content .galery, .page-tags .page-wrapp-item .content .galery {
             width: 100%;
             height: 400px;
             margin-bottom: 25px;
             position: relative;
             background: #fff; }
-            .page-blog .page-wrapp-item .content .gallerys-item, .page-about .page-wrapp-item .content .gallerys-item, .page-care .page-wrapp-item .content .gallerys-item, .page-education .page-wrapp-item .content .gallerys-item, .page-food .page-wrapp-item .content .gallerys-item, .page-tags .page-wrapp-item .content .gallerys-item {
+            .page-blog .page-wrapp-item .content .galery-item, .page-about .page-wrapp-item .content .galery-item, .page-care .page-wrapp-item .content .galery-item, .page-education .page-wrapp-item .content .galery-item, .page-food .page-wrapp-item .content .galery-item, .page-tags .page-wrapp-item .content .galery-item {
               position: relative;
               -webkit-transition: all 250ms ease-in-out;
               -moz-transition: all 250ms ease-in-out;
               -o-transition: all 250ms ease-in-out;
               -ms-transition: all 250ms ease-in-out;
               transition: all 250ms ease-in-out; }
-              .page-blog .page-wrapp-item .content .gallerys-item img, .page-about .page-wrapp-item .content .gallerys-item img, .page-care .page-wrapp-item .content .gallerys-item img, .page-education .page-wrapp-item .content .gallerys-item img, .page-food .page-wrapp-item .content .gallerys-item img, .page-tags .page-wrapp-item .content .gallerys-item img {
+              .page-blog .page-wrapp-item .content .galery-item img, .page-about .page-wrapp-item .content .galery-item img, .page-care .page-wrapp-item .content .galery-item img, .page-education .page-wrapp-item .content .galery-item img, .page-food .page-wrapp-item .content .galery-item img, .page-tags .page-wrapp-item .content .galery-item img {
                 max-width: 560px;
                 height: 400px;
                 padding: 0;
                 margin: 0;
                 display: block;
                 outline: none; }
-              .page-blog .page-wrapp-item .content .gallerys-item .alt, .page-about .page-wrapp-item .content .gallerys-item .alt, .page-care .page-wrapp-item .content .gallerys-item .alt, .page-education .page-wrapp-item .content .gallerys-item .alt, .page-food .page-wrapp-item .content .gallerys-item .alt, .page-tags .page-wrapp-item .content .gallerys-item .alt {
+              .page-blog .page-wrapp-item .content .galery-item .alt, .page-about .page-wrapp-item .content .galery-item .alt, .page-care .page-wrapp-item .content .galery-item .alt, .page-education .page-wrapp-item .content .galery-item .alt, .page-food .page-wrapp-item .content .galery-item .alt, .page-tags .page-wrapp-item .content .galery-item .alt {
                 width: 100%;
                 color: #fff;
                 font: 18px/20px "Lobster";
@@ -1048,16 +1048,16 @@ footer {
                 -o-transition: all 1000ms ease-in-out 250ms ease-in-out;
                 -ms-transition: all 1000ms ease-in-out 250ms ease-in-out;
                 transition: all 1000ms ease-in-out 250ms ease-in-out; }
-              .page-blog .page-wrapp-item .content .gallerys-item.slick-slide, .page-about .page-wrapp-item .content .gallerys-item.slick-slide, .page-care .page-wrapp-item .content .gallerys-item.slick-slide, .page-education .page-wrapp-item .content .gallerys-item.slick-slide, .page-food .page-wrapp-item .content .gallerys-item.slick-slide, .page-tags .page-wrapp-item .content .gallerys-item.slick-slide {
+              .page-blog .page-wrapp-item .content .galery-item.slick-slide, .page-about .page-wrapp-item .content .galery-item.slick-slide, .page-care .page-wrapp-item .content .galery-item.slick-slide, .page-education .page-wrapp-item .content .galery-item.slick-slide, .page-food .page-wrapp-item .content .galery-item.slick-slide, .page-tags .page-wrapp-item .content .galery-item.slick-slide {
                 opacity: .3; }
-                .page-blog .page-wrapp-item .content .gallerys-item.slick-slide img + .alt, .page-about .page-wrapp-item .content .gallerys-item.slick-slide img + .alt, .page-care .page-wrapp-item .content .gallerys-item.slick-slide img + .alt, .page-education .page-wrapp-item .content .gallerys-item.slick-slide img + .alt, .page-food .page-wrapp-item .content .gallerys-item.slick-slide img + .alt, .page-tags .page-wrapp-item .content .gallerys-item.slick-slide img + .alt {
+                .page-blog .page-wrapp-item .content .galery-item.slick-slide img + .alt, .page-about .page-wrapp-item .content .galery-item.slick-slide img + .alt, .page-care .page-wrapp-item .content .galery-item.slick-slide img + .alt, .page-education .page-wrapp-item .content .galery-item.slick-slide img + .alt, .page-food .page-wrapp-item .content .galery-item.slick-slide img + .alt, .page-tags .page-wrapp-item .content .galery-item.slick-slide img + .alt {
                   opacity: 0; }
-              .page-blog .page-wrapp-item .content .gallerys-item.slick-active, .page-about .page-wrapp-item .content .gallerys-item.slick-active, .page-care .page-wrapp-item .content .gallerys-item.slick-active, .page-education .page-wrapp-item .content .gallerys-item.slick-active, .page-food .page-wrapp-item .content .gallerys-item.slick-active, .page-tags .page-wrapp-item .content .gallerys-item.slick-active {
+              .page-blog .page-wrapp-item .content .galery-item.slick-active, .page-about .page-wrapp-item .content .galery-item.slick-active, .page-care .page-wrapp-item .content .galery-item.slick-active, .page-education .page-wrapp-item .content .galery-item.slick-active, .page-food .page-wrapp-item .content .galery-item.slick-active, .page-tags .page-wrapp-item .content .galery-item.slick-active {
                 opacity: 1; }
-                .page-blog .page-wrapp-item .content .gallerys-item.slick-active img + .alt, .page-about .page-wrapp-item .content .gallerys-item.slick-active img + .alt, .page-care .page-wrapp-item .content .gallerys-item.slick-active img + .alt, .page-education .page-wrapp-item .content .gallerys-item.slick-active img + .alt, .page-food .page-wrapp-item .content .gallerys-item.slick-active img + .alt, .page-tags .page-wrapp-item .content .gallerys-item.slick-active img + .alt {
+                .page-blog .page-wrapp-item .content .galery-item.slick-active img + .alt, .page-about .page-wrapp-item .content .galery-item.slick-active img + .alt, .page-care .page-wrapp-item .content .galery-item.slick-active img + .alt, .page-education .page-wrapp-item .content .galery-item.slick-active img + .alt, .page-food .page-wrapp-item .content .galery-item.slick-active img + .alt, .page-tags .page-wrapp-item .content .galery-item.slick-active img + .alt {
                   opacity: 1;
                   bottom: 40px; }
-            .page-blog .page-wrapp-item .content .gallerys .slick-next, .page-blog .page-wrapp-item .content .gallerys .slick-prev, .page-about .page-wrapp-item .content .gallerys .slick-next, .page-about .page-wrapp-item .content .gallerys .slick-prev, .page-care .page-wrapp-item .content .gallerys .slick-next, .page-care .page-wrapp-item .content .gallerys .slick-prev, .page-education .page-wrapp-item .content .gallerys .slick-next, .page-education .page-wrapp-item .content .gallerys .slick-prev, .page-food .page-wrapp-item .content .gallerys .slick-next, .page-food .page-wrapp-item .content .gallerys .slick-prev, .page-tags .page-wrapp-item .content .gallerys .slick-next, .page-tags .page-wrapp-item .content .gallerys .slick-prev {
+            .page-blog .page-wrapp-item .content .galery .slick-next, .page-blog .page-wrapp-item .content .galery .slick-prev, .page-about .page-wrapp-item .content .galery .slick-next, .page-about .page-wrapp-item .content .galery .slick-prev, .page-care .page-wrapp-item .content .galery .slick-next, .page-care .page-wrapp-item .content .galery .slick-prev, .page-education .page-wrapp-item .content .galery .slick-next, .page-education .page-wrapp-item .content .galery .slick-prev, .page-food .page-wrapp-item .content .galery .slick-next, .page-food .page-wrapp-item .content .galery .slick-prev, .page-tags .page-wrapp-item .content .galery .slick-next, .page-tags .page-wrapp-item .content .galery .slick-prev {
               width: 50px;
               height: 50px;
               position: absolute;
@@ -1076,31 +1076,31 @@ footer {
               -o-transition: all 250ms ease-in-out;
               -ms-transition: all 250ms ease-in-out;
               transition: all 250ms ease-in-out; }
-              .page-blog .page-wrapp-item .content .gallerys .slick-next:hover, .page-blog .page-wrapp-item .content .gallerys .slick-prev:hover, .page-about .page-wrapp-item .content .gallerys .slick-next:hover, .page-about .page-wrapp-item .content .gallerys .slick-prev:hover, .page-care .page-wrapp-item .content .gallerys .slick-next:hover, .page-care .page-wrapp-item .content .gallerys .slick-prev:hover, .page-education .page-wrapp-item .content .gallerys .slick-next:hover, .page-education .page-wrapp-item .content .gallerys .slick-prev:hover, .page-food .page-wrapp-item .content .gallerys .slick-next:hover, .page-food .page-wrapp-item .content .gallerys .slick-prev:hover, .page-tags .page-wrapp-item .content .gallerys .slick-next:hover, .page-tags .page-wrapp-item .content .gallerys .slick-prev:hover {
+              .page-blog .page-wrapp-item .content .galery .slick-next:hover, .page-blog .page-wrapp-item .content .galery .slick-prev:hover, .page-about .page-wrapp-item .content .galery .slick-next:hover, .page-about .page-wrapp-item .content .galery .slick-prev:hover, .page-care .page-wrapp-item .content .galery .slick-next:hover, .page-care .page-wrapp-item .content .galery .slick-prev:hover, .page-education .page-wrapp-item .content .galery .slick-next:hover, .page-education .page-wrapp-item .content .galery .slick-prev:hover, .page-food .page-wrapp-item .content .galery .slick-next:hover, .page-food .page-wrapp-item .content .galery .slick-prev:hover, .page-tags .page-wrapp-item .content .galery .slick-next:hover, .page-tags .page-wrapp-item .content .galery .slick-prev:hover {
                 background-size: 45px;
                 opacity: .8; }
-            .page-blog .page-wrapp-item .content .gallerys .slick-next, .page-about .page-wrapp-item .content .gallerys .slick-next, .page-care .page-wrapp-item .content .gallerys .slick-next, .page-education .page-wrapp-item .content .gallerys .slick-next, .page-food .page-wrapp-item .content .gallerys .slick-next, .page-tags .page-wrapp-item .content .gallerys .slick-next {
+            .page-blog .page-wrapp-item .content .galery .slick-next, .page-about .page-wrapp-item .content .galery .slick-next, .page-care .page-wrapp-item .content .galery .slick-next, .page-education .page-wrapp-item .content .galery .slick-next, .page-food .page-wrapp-item .content .galery .slick-next, .page-tags .page-wrapp-item .content .galery .slick-next {
               right: 2%;
               -moz-transform: scale(1) rotate(90deg);
               -webkit-transform: scale(1) rotate(90deg);
               transform: scale(1) rotate(90deg);
               -ms-transform: scale(1) rotate(90deg);
               transform: scale(1) rotate(90deg); }
-            .page-blog .page-wrapp-item .content .gallerys .slick-prev, .page-about .page-wrapp-item .content .gallerys .slick-prev, .page-care .page-wrapp-item .content .gallerys .slick-prev, .page-education .page-wrapp-item .content .gallerys .slick-prev, .page-food .page-wrapp-item .content .gallerys .slick-prev, .page-tags .page-wrapp-item .content .gallerys .slick-prev {
+            .page-blog .page-wrapp-item .content .galery .slick-prev, .page-about .page-wrapp-item .content .galery .slick-prev, .page-care .page-wrapp-item .content .galery .slick-prev, .page-education .page-wrapp-item .content .galery .slick-prev, .page-food .page-wrapp-item .content .galery .slick-prev, .page-tags .page-wrapp-item .content .galery .slick-prev {
               left: 2%;
               -moz-transform: scale(1) rotate(-90deg);
               -webkit-transform: scale(1) rotate(-90deg);
               transform: scale(1) rotate(-90deg);
               -ms-transform: scale(1) rotate(-90deg);
               transform: scale(1) rotate(-90deg); }
-            .page-blog .page-wrapp-item .content .gallerys .slick-dots, .page-about .page-wrapp-item .content .gallerys .slick-dots, .page-care .page-wrapp-item .content .gallerys .slick-dots, .page-education .page-wrapp-item .content .gallerys .slick-dots, .page-food .page-wrapp-item .content .gallerys .slick-dots, .page-tags .page-wrapp-item .content .gallerys .slick-dots {
+            .page-blog .page-wrapp-item .content .galery .slick-dots, .page-about .page-wrapp-item .content .galery .slick-dots, .page-care .page-wrapp-item .content .galery .slick-dots, .page-education .page-wrapp-item .content .galery .slick-dots, .page-food .page-wrapp-item .content .galery .slick-dots, .page-tags .page-wrapp-item .content .galery .slick-dots {
               width: 100%;
               display: flex !important;
               justify-content: center;
               padding: 0;
               position: absolute;
               bottom: 10px; }
-              .page-blog .page-wrapp-item .content .gallerys .slick-dots li, .page-about .page-wrapp-item .content .gallerys .slick-dots li, .page-care .page-wrapp-item .content .gallerys .slick-dots li, .page-education .page-wrapp-item .content .gallerys .slick-dots li, .page-food .page-wrapp-item .content .gallerys .slick-dots li, .page-tags .page-wrapp-item .content .gallerys .slick-dots li {
+              .page-blog .page-wrapp-item .content .galery .slick-dots li, .page-about .page-wrapp-item .content .galery .slick-dots li, .page-care .page-wrapp-item .content .galery .slick-dots li, .page-education .page-wrapp-item .content .galery .slick-dots li, .page-food .page-wrapp-item .content .galery .slick-dots li, .page-tags .page-wrapp-item .content .galery .slick-dots li {
                 width: 20px;
                 height: 20px;
                 display: block;
@@ -1114,12 +1114,12 @@ footer {
                 -o-transition: all 250ms ease-in-out;
                 -ms-transition: all 250ms ease-in-out;
                 transition: all 250ms ease-in-out; }
-                .page-blog .page-wrapp-item .content .gallerys .slick-dots li.slick-active, .page-about .page-wrapp-item .content .gallerys .slick-dots li.slick-active, .page-care .page-wrapp-item .content .gallerys .slick-dots li.slick-active, .page-education .page-wrapp-item .content .gallerys .slick-dots li.slick-active, .page-food .page-wrapp-item .content .gallerys .slick-dots li.slick-active, .page-tags .page-wrapp-item .content .gallerys .slick-dots li.slick-active {
+                .page-blog .page-wrapp-item .content .galery .slick-dots li.slick-active, .page-about .page-wrapp-item .content .galery .slick-dots li.slick-active, .page-care .page-wrapp-item .content .galery .slick-dots li.slick-active, .page-education .page-wrapp-item .content .galery .slick-dots li.slick-active, .page-food .page-wrapp-item .content .galery .slick-dots li.slick-active, .page-tags .page-wrapp-item .content .galery .slick-dots li.slick-active {
                   background-size: 20px;
                   opacity: .8; }
-                .page-blog .page-wrapp-item .content .gallerys .slick-dots li button, .page-about .page-wrapp-item .content .gallerys .slick-dots li button, .page-care .page-wrapp-item .content .gallerys .slick-dots li button, .page-education .page-wrapp-item .content .gallerys .slick-dots li button, .page-food .page-wrapp-item .content .gallerys .slick-dots li button, .page-tags .page-wrapp-item .content .gallerys .slick-dots li button {
+                .page-blog .page-wrapp-item .content .galery .slick-dots li button, .page-about .page-wrapp-item .content .galery .slick-dots li button, .page-care .page-wrapp-item .content .galery .slick-dots li button, .page-education .page-wrapp-item .content .galery .slick-dots li button, .page-food .page-wrapp-item .content .galery .slick-dots li button, .page-tags .page-wrapp-item .content .galery .slick-dots li button {
                   opacity: 0; }
-                .page-blog .page-wrapp-item .content .gallerys .slick-dots li:before, .page-about .page-wrapp-item .content .gallerys .slick-dots li:before, .page-care .page-wrapp-item .content .gallerys .slick-dots li:before, .page-education .page-wrapp-item .content .gallerys .slick-dots li:before, .page-food .page-wrapp-item .content .gallerys .slick-dots li:before, .page-tags .page-wrapp-item .content .gallerys .slick-dots li:before {
+                .page-blog .page-wrapp-item .content .galery .slick-dots li:before, .page-about .page-wrapp-item .content .galery .slick-dots li:before, .page-care .page-wrapp-item .content .galery .slick-dots li:before, .page-education .page-wrapp-item .content .galery .slick-dots li:before, .page-food .page-wrapp-item .content .galery .slick-dots li:before, .page-tags .page-wrapp-item .content .galery .slick-dots li:before {
                   display: none; }
           .page-blog .page-wrapp-item .content .foot, .page-about .page-wrapp-item .content .foot, .page-care .page-wrapp-item .content .foot, .page-education .page-wrapp-item .content .foot, .page-food .page-wrapp-item .content .foot, .page-tags .page-wrapp-item .content .foot {
             display: flex;

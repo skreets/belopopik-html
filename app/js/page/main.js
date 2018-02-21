@@ -16,8 +16,6 @@ $(document).ready(function(){
 	  });
 	})();
 
-	// $('header .home').detach();
-
 	$('.slider-wrapp').slick({
 		dots: true,
 		infinite: true,
