@@ -318,7 +318,7 @@
             font: 28px/40px $regular;
 
             @include respond-to(laptop) {
-                padding: 35px 35px 25px;
+                padding: 25px 35px 25px;
             }
 
             @include respond-to(desktop) {

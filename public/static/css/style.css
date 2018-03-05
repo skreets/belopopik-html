@@ -969,7 +969,7 @@ footer {
             font: 28px/40px "OpenSans"; }
             @media only screen and (min-width: 960px) and (max-width: 1199px) {
               .page-blog .page-wrapp-item .content h1, .page-about .page-wrapp-item .content h1, .page-care .page-wrapp-item .content h1, .page-education .page-wrapp-item .content h1, .page-food .page-wrapp-item .content h1, .page-tags .page-wrapp-item .content h1 {
-                padding: 35px 35px 25px; } }
+                padding: 25px 35px 25px; } }
             @media only screen and (min-width: 1200px) {
               .page-blog .page-wrapp-item .content h1, .page-about .page-wrapp-item .content h1, .page-care .page-wrapp-item .content h1, .page-education .page-wrapp-item .content h1, .page-food .page-wrapp-item .content h1, .page-tags .page-wrapp-item .content h1 {
                 padding: 35px 55px 25px; } }
