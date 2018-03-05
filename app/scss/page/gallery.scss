@@ -66,9 +66,16 @@
 	 			text-decoration: none;
 
 	 			img {
-	 				width: 235px;
-	 				height: 235px;
 	 				display: block;
+
+					@include respond-to(laptop) {
+						width: 235px;
+		 				height: 235px;
+					}
+					@include respond-to(desktop) {
+						width: 295px;
+		 				height: 295px;
+					}
 	 			}
 
 	 			p {
@@ -105,14 +112,21 @@
 
 				&:before {
 					content: '';
-					width: 235px;
-	 				height: 235px;
 	 				display: block;
 					position: absolute;
 					top: 0; left: 0;
 					z-index: 1;
 					background: rgba(0,0,0,0);
 					@include transition-delay(all 350ms ease-in-out, 0ms);
+
+					@include respond-to(laptop) {
+						width: 235px;
+		 				height: 235px;
+					}
+					@include respond-to(desktop) {
+						width: 295px;
+		 				height: 295px;
+					}
 				}
 
 	 			&:hover {

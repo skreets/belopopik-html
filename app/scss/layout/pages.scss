@@ -57,6 +57,14 @@
       position: relative;
       padding-bottom: 30px;
 
+      @include respond-to(laptop) {
+      	flex-basis: 710px;
+      }
+
+      @include respond-to(desktop) {
+      	flex-basis: 950px;
+      }
+
       &-item {
         display: flex;
         padding-top: 30px;
@@ -118,6 +126,14 @@
           background: #fff;
           box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .1);
 
+          @include respond-to(laptop) {
+          	flex-basis: 540px;
+          }
+
+          @include respond-to(desktop) {
+          	flex-basis: 780px;
+          }
+
           a {
             color: #333;
             text-decoration: none;
@@ -143,6 +159,16 @@
             margin-left: -10px;
             margin-bottom: 10px;
 
+            @include respond-to(laptop) {
+              flex-basis: 550px;
+              height: 300px;
+            }
+
+            @include respond-to(desktop) {
+            	flex-basis: 790px;
+              height: 500px;
+            }
+
             img {
               max-width: 100%;
               display: block;
@@ -158,6 +184,23 @@
               position: absolute;
               top:0; left:0;
               background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAEwCAYAAACOpODCAAAACXBIWXMAAAsTAAALEwEAmpwYAAABNmlDQ1BQaG90b3Nob3AgSUNDIHByb2ZpbGUAAHjarY6xSsNQFEDPi6LiUCsEcXB4kygotupgxqQtRRCs1SHJ1qShSmkSXl7VfoSjWwcXd7/AyVFwUPwC/0Bx6uAQIYODCJ7p3MPlcsGo2HWnYZRhEGvVbjrS9Xw5+8QMUwDQCbPUbrUOAOIkjvjB5ysC4HnTrjsN/sZ8mCoNTIDtbpSFICpA/0KnGsQYMIN+qkHcAaY6addAPAClXu4vQCnI/Q0oKdfzQXwAZs/1fDDmADPIfQUwdXSpAWpJOlJnvVMtq5ZlSbubBJE8HmU6GmRyPw4TlSaqo6MukP8HwGK+2G46cq1qWXvr/DOu58vc3o8QgFh6LFpBOFTn3yqMnd/n4sZ4GQ5vYXpStN0ruNmAheuirVahvAX34y/Axk/96FpPYgAAACBjSFJNAAB6JQAAgIMAAPn/AACA6AAAUggAARVYAAA6lwAAF2/XWh+QAAAAv0lEQVR42uzVsQ3CMBCF4Re3qTNGpmAgxBiUDMRCpH1pOapIJLGTaxH/Se6+wjq/83W2Q4kqShYQCPxfGBkYkm4lg/q+f5QMOrrjCrXgDtVgFW1hE0mSbIftt+1rRKh1lEELvJ+hBb5sj2ewSBokPed5HjOhOMXf7TnE24Y3ce0Jq7gVih0+itkKd4mlOUm6dMntOmWHa+DvAQKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQCAQCgUAgEPhr8DMA0j62W2y/TZcAAAAASUVORK5CYII=');
+            }
+
+            &:after {
+              content: '';
+              width: 10px;
+              height: 300px;
+              display: block;
+              position: absolute;
+              bottom: 0; left: 0;
+              background: $bg-page;
+              display: none;
+            }
+
+            @include respond-to(desktop) {
+            	&:after {
+                display: block;
+              }
             }
           }
 
@@ -192,12 +235,21 @@
       position: relative;
       padding-bottom: 30px;
 
+      @include respond-to(laptop) {
+        width: 875px;
+      }
+
+      @include respond-to(desktop) {
+        width: 1115px;
+      }
+
       &-item {
         display: flex;
+        flex-wrap: wrap;
         padding-top: 30px;
 
         .info {
-          flex-basis: 150px;
+          width: 150px;
           color: #999;
           margin-top: 25px;
           position: relative;
@@ -254,9 +306,24 @@
           background: #fff;
           box-shadow: 0 1px 10px 1px rgba(0, 0, 0, .05);
 
+          @include respond-to(laptop) {
+            width: 725px;
+          }
+
+          @include respond-to(desktop) {
+            width: 965px;
+          }
+
           h1 {
             font: 28px/40px $regular;
-            padding: 35px 35px 25px;
+
+            @include respond-to(laptop) {
+                padding: 35px 35px 25px;
+            }
+
+            @include respond-to(desktop) {
+                padding: 35px 55px 25px;
+            }
 
             & + p {
               font: 18px/30px $bold-italic;
@@ -266,34 +333,82 @@
           h2 {
             font: 24px/34px $regular;
             padding: 0 35px 15px;
+
+            @include respond-to(laptop) {
+                padding: 0 35px 15px;
+            }
+
+            @include respond-to(desktop) {
+                padding: 0 55px 15px;
+            }
           }
 
           h3 {
             font: 20px/30px $regular;
             padding: 0 35px 15px;
+
+            @include respond-to(laptop) {
+                padding: 0 35px 15px;
+            }
+
+            @include respond-to(desktop) {
+                padding: 0 55px 15px;
+            }
           }
 
           h4 {
             color: $black;
             font: 24px/24px $regular;
             padding: 0 35px 15px;
+
+            @include respond-to(laptop) {
+                padding: 0 35px 15px;
+            }
+
+            @include respond-to(desktop) {
+                padding: 0 55px 15px;
+            }
           }
 
           h5 {
             color: $black;
             font: 22px/22px $regular;
             padding: 0 35px 15px;
+
+            @include respond-to(laptop) {
+                padding: 0 35px 15px;
+            }
+
+            @include respond-to(desktop) {
+                padding: 0 55px 15px;
+            }
           }
 
           h6 {
             color: $black;
             font: 20px/20px $regular;
             padding: 0 35px 15px;
+
+            @include respond-to(laptop) {
+                padding: 0 35px 15px;
+            }
+
+            @include respond-to(desktop) {
+                padding: 0 55px 15px;
+            }
           }
 
           p {
             font: 18px/30px $regular;
             padding: 0 35px 25px;
+
+            @include respond-to(laptop) {
+                padding: 0 35px 25px;
+            }
+
+            @include respond-to(desktop) {
+                padding: 0 55px 25px;
+            }
 
             img {
               max-width: 100%;
@@ -333,7 +448,14 @@
           }
 
           ul {
-            padding: 0 50px 25px;
+
+            @include respond-to(laptop) {
+              padding: 0 50px 25px;
+            }
+
+            @include respond-to(desktop) {
+              padding: 0 70px 25px;
+            }
 
             li {
               font: 18px/30px $regular;
@@ -357,7 +479,14 @@
 
           ol {
             counter-reset: ol-counter;
-            padding: 0 50px 25px;
+
+            @include respond-to(laptop) {
+              padding: 0 50px 25px;
+            }
+
+            @include respond-to(desktop) {
+              padding: 0 75px 25px;
+            }
 
             li {
               font: 18px/30px $regular;
@@ -707,16 +836,33 @@
 
           &-item {
             color: $black;
-            width: 307px;
             margin-right: 20px;
             text-align: center;
             box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
             background: transparent;
 
+            @include respond-to(laptop) {
+            	width: 307px;
+            }
+
+            @include respond-to(desktop) {
+            	width: 385px;
+            }
+
             &_img {
               width: 307px;
               height: 173px;
               overflow: hidden;
+
+              @include respond-to(laptop) {
+              	width: 307px;
+                height: 173px;
+              }
+
+              @include respond-to(desktop) {
+              	width: 385px;
+                height: 251px;
+              }
 
               img {
       				  max-width: 100%;

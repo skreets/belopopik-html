@@ -60,8 +60,15 @@
 				}
 
 				.content {
-					flex-basis: 560px;
 					margin: 30px 0 0 105px;
+
+					@include respond-to(laptop) {
+		        flex-basis: 560px;
+		      }
+
+		      @include respond-to(desktop) {
+						flex-basis: 800px;
+		      }
 
 					a {
 
@@ -122,7 +129,6 @@
 				}
 
 				.content {
-					width: 725px;
 
 					h1 {
 						color: $green-2;

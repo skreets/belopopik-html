@@ -193,15 +193,22 @@
 		}
 
 		&-item {
-			width: 310px;
+
 			position: relative;
 			margin-bottom: 20px;
 			background: #fff;
 			box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
-
 			margin-top: 100px;
 			opacity: 0;
 			@include transition-delay(all 700ms ease-in-out, 0);
+
+			@include respond-to(laptop) {
+				width: 310px;
+			}
+
+			@include respond-to(desktop) {
+				width: 390px;
+			}
 
 			&_date {
 				width: 100%;
@@ -216,11 +223,19 @@
 			}
 
 			&_img {
-				width: 310px;
-				height: 205px;
 				overflow: hidden;
 				position: relative;
 				z-index: 1;
+
+				@include respond-to(laptop) {
+					width: 310px;
+					height: 205px;
+				}
+
+				@include respond-to(desktop) {
+					width: 390px;
+					height: 285px;
+				}
 
 				&-view {
 					width: 310px;
@@ -237,6 +252,16 @@
 					align-content: center;
 					opacity: 0;
 					@include transition;
+
+					@include respond-to(laptop) {
+						width: 310px;
+						height: 210px;
+					}
+
+					@include respond-to(desktop) {
+						width: 390px;
+						height: 260px;
+					}
 
 					span {
 						margin-top: 60px;
@@ -266,6 +291,16 @@
 					background: url('../img/blog-gradient.png') 0 0 repeat-x;
 					z-index: 2;
 					@include transition;
+
+					@include respond-to(laptop) {
+						width: 310px;
+						height: 169px;
+					}
+
+					@include respond-to(desktop) {
+						width: 390px;
+						height: 209px;
+					}
 				}
 			}
 
@@ -365,7 +400,6 @@
 		z-index: 1;
 
 		&-item {
-			flex-basis: 465px;
 			position: relative;
 			margin-top: 150px;
 			margin-bottom: 77px;
@@ -373,6 +407,14 @@
 			box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.2);
 			opacity: 0;
 			@include transition-delay(all 700ms ease-in-out, 0);
+
+			@include respond-to(laptop) {
+				flex-basis: 465px;
+			}
+
+			@include respond-to(desktop) {
+				flex-basis: 590px;
+			}
 
 			&_title {
 				width: 100%;
@@ -402,14 +444,32 @@
 				position: relative;
 				z-index: 1;
 
-				&-view {
+				@include respond-to(laptop) {
 					width: 465px;
 					height: 264px;
+				}
+
+				@include respond-to(desktop) {
+					width: 590px;
+					height: 389px;
+				}
+
+				&-view {
 					color: #fff;
 					font: 16px $italic;
 					position: absolute;
 					top: 0; left: 0;
 					z-index: 3;
+
+					@include respond-to(laptop) {
+						width: 465px;
+						height: 264px;
+					}
+
+					@include respond-to(desktop) {
+						width: 590px;
+						height: 389px;
+					}
 
 					display: flex;
 					justify-content: center;
@@ -438,14 +498,22 @@
 
 				&:before {
 					content: '';
-					width: 465px;
-					height: 264px;
 					display: block;
 					position: absolute;
 					top: 0; left: 0;
 					background: url('../img/blog-gradient.png') 0 0 repeat-x;
 					z-index: 2;
 					@include transition;
+
+					@include respond-to(laptop) {
+						width: 465px;
+						height: 264px;
+					}
+
+					@include respond-to(desktop) {
+						width: 590px;
+						height: 389px;
+					}
 				}
 			}
 
